@@ -145,6 +145,17 @@ def ej3():
             print('Resp=3')
         else:
             print('Resp=4')
+
+    # Modificacion ejercicio 3 con elif
+
+    if (numero_1 > 5 and numero_2 > 0):
+        print('Resp=1')
+    elif (numero_1 > 5 and numero_2 <= 0):
+        print('Resp=2')
+    elif (numero_1 <= 5 and numero_2 > 5):
+        print('Resp=3')
+    elif (numero_1 <= 5 and numero_2 <= 5):
+        print('Resp=4')
     
     # Verifique la calificación de un estudiante según su
     # puntaje en un examen
